@@ -1,0 +1,27 @@
+{
+  "name": "mean-test",
+  "authors": [
+    "Rich Gomez <0xkione@gmail.com>"
+  ],
+  "description": "A project to test the MEAN stack",
+  "main": "index.js",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3",
+    "bootstrap": "~3.3.6"
+  }
+}
