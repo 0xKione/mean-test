@@ -1,4 +1,4 @@
-app.directive("helloWorld", function(HelloWorldService) {
+app.directive('helloWorld', function(HelloWorldService) {
     return {
         restrict: 'E',
 	    scope: {},

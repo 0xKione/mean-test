@@ -2,7 +2,7 @@
 
 var gulp = require('gulp');
 
-var assign = Object.assign || require('object.assign')
+var assign = Object.assign || require('object-assign');
 var babel = require('gulp-babel');
 var concat = require('gulp-concat');
 var cssmin = require('gulp-minify-css');
@@ -12,7 +12,7 @@ var lint = require('gulp-eslint');
 var merge = require('merge-stream');
 var rename = require('gulp-rename');
 var runSequence = require('run-sequence');
-var sass = require('gulp-sass');
+//var sass = require('gulp-sass');
 var vinylPaths = require('vinyl-paths');
 
 var babelOptions = {
@@ -28,6 +28,7 @@ var devDependencies = {
     './bower_components/jquery/dist/jquery.js',
     './bower_components/bootstrap/dist/js/bootstrap.js',
     './bower_components/angular/angular.js',
+    './bower_components/angular-ui-rounter/release/angular-ui-router.js',
     './bower_compontents/underscore/underscore.js'
   ],
   css: [

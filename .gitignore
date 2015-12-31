@@ -2,4 +2,6 @@ bower_components/
 node_modules/
 client/css/vendor/
 client/css/fonts/
+client/dist/
 client/js/vendor/
+.vs/

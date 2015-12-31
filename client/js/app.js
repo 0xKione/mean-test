@@ -1,1 +1,6 @@
-var app = angular.module('meanApp', []);
+angular.module('meanApp', ['ui.router']);
+
+
+angular.module('meanApp').config(function($stateProvider, $urlRouterProvider) {
+    
+});
