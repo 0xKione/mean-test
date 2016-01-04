@@ -28,8 +28,8 @@ var devDependencies = {
     './bower_components/jquery/dist/jquery.js',
     './bower_components/bootstrap/dist/js/bootstrap.js',
     './bower_components/angular/angular.js',
-    './bower_components/angular-ui-rounter/release/angular-ui-router.js',
-    './bower_compontents/underscore/underscore.js'
+    './bower_components/angular-ui-router/release/angular-ui-router.js',
+    './bower_components/underscore/underscore.js'
   ],
   css: [
     './bower_components/bootstrap/dist/css/bootstrap.css'

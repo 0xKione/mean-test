@@ -1,4 +1,4 @@
-app.directive('helloWorld', function(HelloWorldService) {
+angular.module('meanApp').directive('helloWorld', function(HelloWorldService) {
     return {
         restrict: 'E',
 	    scope: {},
