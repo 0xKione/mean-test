@@ -8,20 +8,23 @@
         </button>
         <a class="navbar-brand" href="#">
             <i class="fa fa-home"></i>
-            <span>${router.title}</span>
+            <span>MEAN Test</span>
         </a>
     </div>
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="nav navbar-nav">
-            <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
-                <a href.bind="row.href">${row.title}</a>
+            <li ui-sref-active="active" ui-sref="inbox">
+                <a style="cursor: pointer;">Inbox</a>
+            </li>
+            <li ui-sref-active="active" ui-sref="trash">
+                <a style="cursor: pointer;">Trash</a>
             </li>
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
-            <li class="loader" if.bind="router.isNavigating">
-                <i class="fa fa-spinner fa-spin fa-2x"></i>
+            <li class="loader" ng-show="{{ isNavigating }}">
+                <i class="fa fa-spinner fa-spin fa-2x"></i> Loading...
             </li>
         </ul>
     </div>
